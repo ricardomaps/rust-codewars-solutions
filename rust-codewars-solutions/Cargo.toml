@@ -1,6 +1,14 @@
+[lib]
+name = "rust_codewars_solutions"
+path = "src/lib.rs"
+
 [package]
 name = "rust-codewars-solutions"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+num = "0.4.3"
+chrono = "0.4"
+bit-set = "0.8.0"
+itertools = "0.14.0"
